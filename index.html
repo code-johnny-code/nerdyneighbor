@@ -1,151 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="description" content="Tech support you can trust from a local Marine Corps veteran in Eureka Springs. Clear pricing, no pressure, home visits and email help available.">
-  <meta name="author" content="John Ross">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="favicon.png" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Nerdy Neighbor</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      max-width: 600px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-      line-height: 1.6;
-      color: #222;
-    }
-    h1, h2, h3 {
-      color: #333;
-    }
-    hr {
-      margin: 2rem 0;
-    }
-    .tagline {
-      font-style: italic;
-      color: #555;
-    }
-    .contact {
-      margin-top: 2rem;
-      font-weight: bold;
-    }
-    a.button {
-      display: inline-block;
-      padding: 0.5rem 1rem;
-      background-color: #28a745;
-      color: white;
-      text-decoration: none;
-      border-radius: 4px;
-      margin: 1rem 0.5rem 0 0;
-    }
-    :focus {
-      outline: 2px solid #28a745;
-      outline-offset: 3px;
-    }
-    @media (min-width: 480px) {
-      .button-group .button {
-        flex: 1 1 auto;
-        min-width: 160px;
-      }
-    }
-
-  </style>
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="stylesheet" href="style.css"/>
 </head>
-<main><body>
-<h1>Nerdy Neighbor</h1>
-<p class="tagline">Polite. Professional. Local. Veteran-owned.</p>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="nn-logo-bg-transparent.png" alt="Nerdy Neighbor Logo" class="logo"/>
+    </div>
+    <nav>
+      <a href="#intro">Home</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#area">Service Area</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
 
-<h2>What I Do</h2>
-<p>I help with everyday tech problems at home—Wi-Fi that won’t connect, printers that refuse to print, computers that act up, or getting your streaming or email working again. If it plugs in and frustrates you, I’ll take a look.</p>
+  <main>
+    <section id="intro" class="section">
+      <h1>Your Nerdy Neighbor</h1>
+      <p>Tech support with a smile — right here in the Ozarks. I bring neighborly service to homes and small businesses who need help with devices, software, Wi-Fi, or just general tech confusion.</p>
+      <p>Veteran-owned, locally grown, and here to lend a hand without judgment or jargon.</p>
+    </section>
 
-<p><strong>Service Area:</strong> I proudly serve Eureka Springs and the surrounding areas. If you're within a 30-minute drive, you're in the zone! For travel beyond that, we may need to discuss a small additional fee to cover time in transit.</p>
+    <section id="pricing" class="section">
+      <h2>Pricing</h2>
+      <ul class="pricing-list">
+        <li><strong>$100</strong> — Up to 90 minutes of tech support at your home or business</li>
+        <li><strong>$50</strong> — Each additional 30 minutes</li>
+        <li><strong>Free diagnostics</strong> — I'll tell you what's wrong before you pay</li>
+      </ul>
+      <p class="note">Cash or check accepted. No upsells, no pressure — just honest help.</p>
+    </section>
 
+    <section id="area" class="section">
+      <h2>Service Area</h2>
+      <p>I serve Eureka Springs and nearby parts of Carroll County, Arkansas. If you're within about 30 minutes, you're likely in range — feel free to ask!</p>
+      <p class="note">Live a little farther out? Remote help might still be an option.</p>
+    </section>
 
-<p><a href="mailto:hello@yournerdyneighbor.com" class="button">Tell Me What You Need Help With</a></p>
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>I'm your neighbor — a local tech expert, Marine Corps veteran, and friendly face who’s passionate about helping folks feel confident with technology.</p>
+      <p>Whether it’s your first laptop or your home business setup, I’ll meet you where you are.</p>
+      <div class="about-photos">
+        <img src="face.jpeg" alt="Photo of me">
+        <img src="blues.jpg" alt="Another photo">
+      </div>
+    </section>
+  </main>
 
-<h2>Pricing</h2>
-
-<h3>Home Visit Rates</h3>
-<p>Most tech issues can be solved during the initial visit window. If it looks like we’ll need more time, I’ll always check with you before continuing.</p>
-<p>Every home visit includes a quick cleanup with compressed air—removing dust from computers, routers, and other equipment that might be hiding in hot, dusty corners. It’s a small step that can make a big difference in speed and reliability—and it helps keep your devices running longer.</p>
-<ul>
-  <li><strong>$100</strong> – Up to 90 minutes at your home</li>
-  <li><strong>$50</strong> – Each additional 30 minutes</li>
-</ul>
-<p>Cash and checks gladly accepted.</p>
-
-<p><a href="mailto:hello@yournerdyneighbor.com" class="button">Book a Visit</a></p>
-
-<p>Email: <a href="mailto:hello@yournerdyneighbor.com">hello@yournerdyneighbor.com</a></p>
-<!--<p>Call/Text: (479) ###-####</p>-->
-<hr>
-
-<h3>Nerdy Neighbor Club</h3>
-<p>Email support is great for quick help and guidance. If an issue needs more attention or turns into troubleshooting, we’ll talk about a home visit.</p>
-<p><a href="email_support.html" class="button">What's Included in Email Support</a></p>
-
-<ul>
-  <li><strong>$25/month</strong> – Email support for tech questions</li>
-  <li><strong>$250/year</strong> – Pay up front and save $50</li>
-  <li>Includes <strong>10% off</strong> all home visit rates</li>
-  <li>Flexible scheduling for members</li>
-  <!--  <li><strong>Access to Equipment Rentals</strong> – Routers, laptops, and hotspots available to club members during off-site repairs or temporary needs.</li>-->
-</ul>
-<p><a href="mailto:hello@yournerdyneighbor.com?subject=Join%20Nerdy%20Neighbor%20Club" class="button">Join the Club Now</a></p>
-
-<hr>
-
-<h3>Off-Site Repairs</h3>
-<p>If it’s more convenient, I can take your device with me to repair off-site. We’ll always agree on the work and estimated cost in advance. Turnaround is typically 1–3 business days, depending on the issue.</p>
-<ul>
-  <li><strong>$75 minimum</strong> – Includes pickup, basic diagnostics, and repair work up to 1 hour</li>
-  <li><strong>$50/hour</strong> – For additional repair time (only after approval)</li>
-</ul>
-<a href="mailto:hello@yournerdyneighbor.com?subject=Offsite%20Repair" class="button">Request an Off-Site Repair</a>
-
-<hr>
-
-<h2>Reasonable Expectations</h2>
-<p>I do my best to treat every device like it’s my own, and most of the time, everything goes just fine. That said, technology can be unpredictable—especially when it’s already acting up.</p>
-
-<p>When you invite me into your home or hand off a device, you’re trusting me to give it my full attention, care, and honesty. I’ll never push something you don’t need, and I’ll always talk through the plan before doing anything extra.</p>
-
-<h3>What I Promise</h3>
-<ul>
-  <li>I’ll show up when I say I will</li>
-  <li>I’ll explain things clearly and honestly</li>
-  <li>I’ll respect your home and your time</li>
-  <li>If I can’t fix it, I’ll tell you straight</li>
-  <li>If I make a mistake, I’ll make it right</li>
-</ul>
-
-<h3>What You Should Know</h3>
-<ul>
-  <li>I can’t guarantee I’ll be able to fix everything</li>
-  <li>Sometimes devices fail on their own, especially if they’re already on their way out</li>
-  <li>Data loss, manufacturer defects, or internet outages might be outside my control</li>
-</ul>
-
-<p>If I need to take something with me to work on, we’ll agree on what needs doing first—and I’ll keep you in the loop every step of the way.</p>
-<p>My goal is always the same: solve the problem, keep it simple, and make sure you feel good about the help you got.</p>
-
-<div class="contact">
-  <p>Email: <a href="mailto:hello@yournerdyneighbor.com">hello@yournerdyneighbor.com</a></p>
-<!--  <p>Phone: (XXX) XXX-XXXX</p>-->
-  <p><a href="about.html" class="button">Meet Your Nerdy Neighbor</a></p>
-
-</div>
-
-<p style="margin-top: 1rem; font-size: 0.9em; color: #888;">
-  Operated by a service-disabled U.S. Marine Corps veteran.
-</p>
-
-<p>
-  <a href="mailto:hello@yournerdyneighbor.com?subject=Join%20Nerdy%20Neighbor%20Club" class="button">Join the Club Now</a>
-  <a href="mailto:hello@yournerdyneighbor.com?subject=Home%20Visit%20Request" class="button">Book a Home Visit</a>
-</p>
-
+  <footer>
+    <p>📍 Eureka Springs, AR | 📧 <a href="mailto:hello@yournerdyneighbor.com">hello@yournerdyneighbor.com</a> | 📞 <a href="tel:+14793438580">(479) 343-8580</a></p>
+    <p>&copy; 2025 Nerdy Neighbor. All rights reserved.</p>
+  </footer>
 </body>
-</main>
 </html>
